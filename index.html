@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de cores</title>
+</head>
+<body>
+    <style>
+        #verde{
+            background-color: green;
+        }
+        #vermelho{
+            background-color: red;
+        }
+        #azul{
+            background-color: blue;
+        }
+
+        button{
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+        }
+    </style>
+    <h3>Troca de cores</h3>
+    <button id="Verde" onclick="setColor('verde')">Verde</button>
+    <button id="Vermelho" onclick="setColor('vermelho')">Vermelho</button>
+    <button id="Azul" onclick="setColor('azul')">Azul</button>
+    <button id="Aleatório" onclick="randomColor()">Aleatório</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
